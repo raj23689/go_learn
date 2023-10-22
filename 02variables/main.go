@@ -29,7 +29,7 @@ func main() {
 	fmt.Println(genre)
 
 	// no var style
-	website := 451515.20
+	website := 451515.20 // wlarus operator only works inside a method. Not Globally
 	fmt.Println(website)
 
 }
