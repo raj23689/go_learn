@@ -28,4 +28,8 @@ func main() {
 	var genre = "Anime"
 	fmt.Println(genre)
 
+	// no var style
+	website := 451515.20
+	fmt.Println(website)
+
 }
