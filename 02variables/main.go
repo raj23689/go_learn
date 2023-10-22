@@ -18,4 +18,14 @@ func main() {
 	var smallFloat float32 = 255.4555444432654432
 	fmt.Println(smallFloat)
 	fmt.Printf("Variable is of type: %T \n", smallFloat)
+
+	// default values and aliases
+	var minElement int
+	fmt.Println(minElement)
+	fmt.Printf("Variable is of type: %T \n", minElement)
+
+	// implicit type
+	var genre = "Anime"
+	fmt.Println(genre)
+
 }
