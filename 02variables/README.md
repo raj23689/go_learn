@@ -32,4 +32,4 @@ uintptr an unsigned integer large enough to store the uninterpreted bits of a po
 
 ```
 
-To avoid portability issues all numeric types are ![defined types](https://go.dev/ref/spec#Type_definitions) and thus distinct except `byte`, which is an alias for`uint8`, and `rune`, which is an alias for `int32`. Explicit conversions are required when different numeric types are mixed in an expression or assignment. For instance, `int32`and`int` are not the same type even though they may have the same size on a particular architecture.
+To avoid portability issues all numeric types are [defined types](https://go.dev/ref/spec#Type_definitions) and thus distinct except `byte`, which is an alias for`uint8`, and `rune`, which is an alias for `int32`. Explicit conversions are required when different numeric types are mixed in an expression or assignment. For instance, `int32`and`int` are not the same type even though they may have the same size on a particular architecture.
