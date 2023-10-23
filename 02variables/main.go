@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+const LoginToken string = "hjbkkkkkkknk" // public constant
+
 func main() {
 	var userName string = "Raj"
 	fmt.Println(userName)
@@ -31,5 +33,8 @@ func main() {
 	// no var style
 	website := 451515.20 // walrus operator only works inside a method. Not Globally
 	fmt.Println(website)
+
+	fmt.Println(LoginToken)
+	fmt.Printf("Variable is of type: %T \n", LoginToken)
 
 }
