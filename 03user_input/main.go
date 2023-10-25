@@ -16,4 +16,5 @@ func main() {
 	// Comma, ok || err ok
 	input, _ := reader.ReadString('\n')
 	fmt.Println("Thanks for your input: ", input)
+	fmt.Printf("Type of this input is %T: ", input)
 }
